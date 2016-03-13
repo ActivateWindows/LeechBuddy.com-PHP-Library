@@ -7,7 +7,15 @@ This class makes you able to customize your PHP pages based on [LeechBuddy.com](
 I use XAMPP(LAMPP) v5.5.3x. So, it means I use the 5.5.3x version of PHP. Go to ```my_phpinfo``` directory to have a look on my ```phpinfo()```.
 
 ### Installation
-Just download the ```class.inc.php``` file in the ```lib``` directory and include it on your code. Were you expection for more?
+1) Download the ```class.inc.php``` file in the ```lib``` directory and include it on your code.
+
+2) Then, go to [leechbuddy.com/auto/login](https://www.leechbuddy.com/auto/login) and authorize the application on your Facebook account.
+
+3) As soon as you done that, you will be redirected to ```https://www.leechbuddy.com/login/done#_=_```. When you are there, right click on the page and view page source. You will see a line like this ```var token = "A LONG TOKEN IS HERE";```.
+
+4) Copy the token code where between the quote marks. And add it to ```4th``` line on ```class.inc.php``` file.
+
+5) Finally, run the code.
 
 ### Usage
 
