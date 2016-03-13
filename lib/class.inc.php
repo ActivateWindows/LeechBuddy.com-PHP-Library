@@ -57,7 +57,7 @@ class LeechBuddy
 	*/
 	public static function check_ok($data)
 	{
-		if($data['message'] and $data['status_code'])
+		if(isset($data['message']) and isset($data['status_code']))
 		{
 			$message      =  $data['message'];
 			$status_code  =  $data['status_code'];
