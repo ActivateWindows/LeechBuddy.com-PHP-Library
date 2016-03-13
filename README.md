@@ -37,14 +37,13 @@ $user_rank                  =  LeechBuddy::user_rank($user_data);
 $working_hosters            =  LeechBuddy::check_working_filehosters($user_data);
 $quota_in_gb                =  LeechBuddy::available_quota_in_gb($user_data);
 $used_quota_percentage      =  LeechBuddy::used_quota_percentage($user_data);
+$list_files                 =  LeechBuddy::list_files($user_data);
 
 try{
 	$add_link_to_queue        =  LeechBuddy::add_link_to_queue('http://uploaded.net/file/arouri47');
 }catch(Exception $e){
 	die($e->getMessage());
 }
-
-$list_files                 =  LeechBuddy::list_files($user_data);
 ?>
 ```
 
