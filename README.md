@@ -39,6 +39,7 @@ $quota_in_gb                =  LeechBuddy::available_quota_in_gb($user_data);
 $used_quota_percentage      =  LeechBuddy::used_quota_percentage($user_data);
 $list_files                 =  LeechBuddy::list_files($user_data);
 
+// Use the block below only when you will make a download. If don't this, this will kill all the code because of an handling error (exception).
 try{
 	$add_link_to_queue        =  LeechBuddy::add_link_to_queue('http://uploaded.net/file/arouri47');
 }catch(Exception $e){
