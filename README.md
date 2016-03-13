@@ -1,1 +1,1 @@
-asdasdasd
+# LeechBuddy.com PHP Class
