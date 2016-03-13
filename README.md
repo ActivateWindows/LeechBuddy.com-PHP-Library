@@ -7,7 +7,7 @@ This class makes you able to customize your PHP pages based on [LeechBuddy.com](
 I use XAMPP(LAMPP) v5.5.3x. So, it means I use the 5.5.3x version of PHP. Go to ```my_phpinfo``` directory to have a look on my ```phpinfo()```.
 
 ### Installation
-Just download the ```class.inc.php``` file and include it on your code. Were you expection for more?
+Just download the ```class.inc.php``` file in the ```lib``` directory and include it on your code. Were you expection for more?
 
 ### Usage
 
