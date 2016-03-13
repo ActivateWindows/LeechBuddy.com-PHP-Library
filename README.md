@@ -48,4 +48,4 @@ $list_files                 =  LeechBuddy::list_files($user_data);
 ?>
 ```
 
-### If you like my repository, please don't forget to click STAR and WATCH buttons on the top of the page.
+### If you like my repository, please don't forget to click ```STAR``` and ```WATCH``` buttons on the top of the page so that also you will be aware of updates on the code.
