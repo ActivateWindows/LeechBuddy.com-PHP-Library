@@ -21,7 +21,7 @@ I use XAMPP(LAMPP) v5.5.3x. So, it means I use the 5.5.3x version of PHP. Go to 
 
 ```php
 <?php
-include_once('./class.inc.php');
+include_once('path/to/class.inc.php');
 
 // If you don't use the block below, all code will be gone.
 try{
