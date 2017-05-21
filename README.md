@@ -1,3 +1,5 @@
+# LeechBuddy.com has been off-line permanently. This repository no longer works.
+
 # LeechBuddy.com PHP Class
 
 This class makes you able to customize your PHP pages based on [LeechBuddy.com](http://www.leechbuddy.com/) and use its features on your own.
